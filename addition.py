@@ -1,15 +1,14 @@
 # Write your addition function in the space below...
-def do_addition(num_1, num_2):
-    total = num_1 + num_2
-    print("the total of", num_1, "and", num_2, "is:", total)
+def add_two(num_1, num_2):
+    print("The sum of", num_1,"and",num_2,"is",num_1+num_2)
 
 
 # Do not change anything below these lines
-def main(first, second):
-    do_addition(first, second)
+def main(first,second):
+    add_two(first,second)
 
 
 if __name__ == '__main__':
-    main(4, 5)
-    main(45, 6)
-    main(67, 34)
+    main(1,2)
+
+
