@@ -103,6 +103,5 @@ def main():
     goto(0, (size * 3) + 10)
     draw_plus_sign(size, color)
 
-
 main()
 turtle.exitonclick()
