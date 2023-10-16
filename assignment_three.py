@@ -48,7 +48,6 @@ def draw_plus_sign(size, color):
         turtle.left(90)
     turtle.end_fill()
 
-
 def main():
     tell_purpose()
     size = get_side_length()
